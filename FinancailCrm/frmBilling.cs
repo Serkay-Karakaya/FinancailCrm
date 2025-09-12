@@ -22,7 +22,7 @@ namespace FinancailCrm
 
         private void frmBilling_Load(object sender, EventArgs e)
         {
-            var values = db.Bills.ToList(); 
+            var values = db.Bills.ToList();
             dataGridView1.DataSource = values;
         }
 
@@ -81,6 +81,13 @@ namespace FinancailCrm
 
             var values = db.Bills.ToList();
             dataGridView1.DataSource = values;
+        }
+
+        private void btnBanksForm_Click(object sender, EventArgs e)
+        {
+            frmBanks frm = new frmBanks();
+            frm.Show();
+            this.Hide();
         }
     }
 }

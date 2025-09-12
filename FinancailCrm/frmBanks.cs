@@ -45,5 +45,11 @@ namespace FinancailCrm
             lblProcess5.Text = bankProcess5.Descripcition + " " + bankProcess5.Amount + " " + bankProcess5.ProcessDate;
         }
 
+        private void btnBillForm_Click(object sender, EventArgs e)
+        {
+            frmBilling frm = new frmBilling();
+            frm.Show();
+            this.Hide();
+        }
     }
 }
