@@ -38,7 +38,7 @@
             // txtUser
             // 
             this.txtUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.txtUser.Location = new System.Drawing.Point(334, 109);
+            this.txtUser.Location = new System.Drawing.Point(345, 109);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(262, 31);
             this.txtUser.TabIndex = 0;
@@ -48,7 +48,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(177, 109);
+            this.label1.Location = new System.Drawing.Point(161, 109);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(169, 31);
             this.label1.TabIndex = 1;

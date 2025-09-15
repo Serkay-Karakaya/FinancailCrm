@@ -38,12 +38,12 @@ namespace FinancailCrm
                 }
                 else
                 {
-                    MessageBox.Show("Password is incorrect");
+                    MessageBox.Show("Şifre Yanlış");
                 }
             }
             else
             {
-                MessageBox.Show("User not found");
+                MessageBox.Show("Kullanıcı bulunamadı");
 
             }
         }
